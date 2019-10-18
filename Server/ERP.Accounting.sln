@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Accounting.Data", "ERP.Accounting.Data\ERP.Accounting.Data.csproj", "{814429C5-1F95-43AB-8C42-083014D0182A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Accounting.Common", "ERP.Accounting.Common\ERP.Accounting.Common.csproj", "{5674205F-57D6-4D3C-994A-953C10B19C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Accounting.Data.Common", "ERP.Accounting.Data.Common\ERP.Accounting.Data.Common.csproj", "{E9080931-B302-4AC2-BB77-5A923332F2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Accounting.Business", "ERP.Accounting.Business\ERP.Accounting.Business.csproj", "{B3A76D61-1A0C-4A64-9C0E-79F04CAFA992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Accounting.Facade", "ERP.Accounting.Facade\ERP.Accounting.Facade.csproj", "{8A7D0AC1-DAE4-48AB-95E4-CFAA98A9F30A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Accounting.Client", "ERP.Accounting.Client\ERP.Accounting.Client.csproj", "{10ACEDD0-139B-4AEA-A682-FB20E629D055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Accounting.Service.WebApi", "ERP.Accounting.Service.WebApi\ERP.Accounting.Service.WebApi.csproj", "{5923EBC1-746F-4ACA-B9F7-BAC0928E7BD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{814429C5-1F95-43AB-8C42-083014D0182A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814429C5-1F95-43AB-8C42-083014D0182A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814429C5-1F95-43AB-8C42-083014D0182A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814429C5-1F95-43AB-8C42-083014D0182A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5674205F-57D6-4D3C-994A-953C10B19C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5674205F-57D6-4D3C-994A-953C10B19C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5674205F-57D6-4D3C-994A-953C10B19C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5674205F-57D6-4D3C-994A-953C10B19C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9080931-B302-4AC2-BB77-5A923332F2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9080931-B302-4AC2-BB77-5A923332F2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9080931-B302-4AC2-BB77-5A923332F2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9080931-B302-4AC2-BB77-5A923332F2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A76D61-1A0C-4A64-9C0E-79F04CAFA992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A76D61-1A0C-4A64-9C0E-79F04CAFA992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A76D61-1A0C-4A64-9C0E-79F04CAFA992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A76D61-1A0C-4A64-9C0E-79F04CAFA992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7D0AC1-DAE4-48AB-95E4-CFAA98A9F30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7D0AC1-DAE4-48AB-95E4-CFAA98A9F30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7D0AC1-DAE4-48AB-95E4-CFAA98A9F30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7D0AC1-DAE4-48AB-95E4-CFAA98A9F30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ACEDD0-139B-4AEA-A682-FB20E629D055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ACEDD0-139B-4AEA-A682-FB20E629D055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ACEDD0-139B-4AEA-A682-FB20E629D055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ACEDD0-139B-4AEA-A682-FB20E629D055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5923EBC1-746F-4ACA-B9F7-BAC0928E7BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5923EBC1-746F-4ACA-B9F7-BAC0928E7BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5923EBC1-746F-4ACA-B9F7-BAC0928E7BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5923EBC1-746F-4ACA-B9F7-BAC0928E7BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6E45C7-E980-4C39-A37A-23DB6D7096A9}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.4.10:8080/tfs/erp
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ERP.Accounting.Business\\ERP.Accounting.Business.csproj
+		SccProjectName1 = ERP.Accounting.Business/ERP.Accounting.Business
+		SccLocalPath1 = ERP.Accounting.Business
+		SccProjectUniqueName2 = ERP.Accounting.Client\\ERP.Accounting.Client.csproj
+		SccProjectName2 = ERP.Accounting.Client
+		SccLocalPath2 = ERP.Accounting.Client
+		SccProjectUniqueName3 = ERP.Accounting.Common\\ERP.Accounting.Common.csproj
+		SccProjectName3 = ERP.Accounting.Common
+		SccLocalPath3 = ERP.Accounting.Common
+		SccProjectUniqueName4 = ERP.Accounting.Data\\ERP.Accounting.Data.csproj
+		SccProjectName4 = ERP.Accounting.Data
+		SccLocalPath4 = ERP.Accounting.Data
+		SccProjectUniqueName5 = ERP.Accounting.Data.Common\\ERP.Accounting.Data.Common.csproj
+		SccProjectName5 = ERP.Accounting.Data.Common
+		SccLocalPath5 = ERP.Accounting.Data.Common
+		SccProjectUniqueName6 = ERP.Accounting.Facade\\ERP.Accounting.Facade.csproj
+		SccProjectName6 = ERP.Accounting.Facade
+		SccLocalPath6 = ERP.Accounting.Facade
+		SccProjectUniqueName7 = ERP.Accounting.Service.WebApi\\ERP.Accounting.Service.WebApi.csproj
+		SccProjectName7 = ERP.Accounting.Service.WebApi
+		SccLocalPath7 = ERP.Accounting.Service.WebApi
+	EndGlobalSection
+EndGlobal

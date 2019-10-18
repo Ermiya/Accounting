@@ -1,0 +1,85 @@
+<form class="col-24" nz-form [formGroup]="form" (ngSubmit)="submit()" role="form">
+  <div nz-row [nzGutter]="12">
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">سریال</nz-form-label>
+
+        <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'سریال'">
+          <nz-input-group nzSize="large">
+            <input nz-input formControlName="serialVal" placeholder="سریال" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">نام</nz-form-label>
+        <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'نام را وارد کنید'">
+          <nz-input-group nzSize="large">
+            <input nz-input formControlName="nameVal" placeholder="نام" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">نام خانوادگی</nz-form-label>
+        <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'نام خانوادگی را وارد کنید'">
+          <nz-input-group nzSize="large">
+            <input nz-input formControlName="familyNameVal" placeholder="نام خانوادگی" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">تاریخ تولد</nz-form-label>
+        <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'تاریخ تولد را وارد کنید'">
+          <nz-input-group nzSize="large">
+            <input nz-input formControlName="birthDayVal" placeholder="تاریخ تولد" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">شماره تلفن</nz-form-label>
+        <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'شماره تلفن را وارد کنید'">
+          <nz-input-group nzSize="large">
+            <input nz-input type="tel" formControlName="telephoneVal" placeholder="شماره تلفن" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">شماره موبایل</nz-form-label>
+        <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'شماره موبایل را وارد کنید'">
+          <nz-input-group nzSize="large">
+            <input nz-input formControlName="mobileVal" placeholder="شماره موبایل" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="serialVal">معرف</nz-form-label>
+        <nz-form-control [nzSm]="18" [nzXs]="24" [nzErrorTip]="'معرف را وارد کنید'">
+          <nz-input-group nzSize="large">
+            <input nz-input formControlName="someVal" placeholder="معرف" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="24">
+      <nz-form-item>
+        <nz-form-label [nzSm]="3" [nzXs]="24" nzRequired nzFor="serialVal">توضیحات</nz-form-label>
+        <nz-form-control [nzSm]="21" [nzXs]="24" [nzErrorTip]="'توضیحات را وارد کنید'">
+          <textarea rows="4" nz-input [(ngModel)]="inputValue" placeholder="توضیحات"></textarea>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+  </div>
+
+  <button nz-button nzType="primary" (click)="submit()">ثبت</button>
+</form>

@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "Alain",
+    "description": "Ng-zorro admin panel front-end framework"
+  },
+  "user": {
+    "name": "Admin",
+    "avatar": "./assets/tmp/img/avatar.jpg",
+    "email": "cipchk@qq.com"
+  },
+  "menu": [
+    {
+      "text": "",
+      "group": false,
+      "i18n": "",
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "registration",
+          "i18n": "menu.registration",
+          "icon": "anticon-dashboard",
+          "children": [
+            {
+              "text": "applicants-registration",
+              "link": "/applicants-register",
+              "i18n": "menu.applicants-registration"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
