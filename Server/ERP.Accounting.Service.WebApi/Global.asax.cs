@@ -12,6 +12,8 @@ namespace ERP.Accounting.Service.WebApi
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            AutoMapperConfig.Configure();
+
         }
     }
 }
